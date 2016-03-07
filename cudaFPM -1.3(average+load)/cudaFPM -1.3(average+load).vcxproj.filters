@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="CmTimer.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="FPMFunction.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="configGPU.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="cufftShiftShared.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="cufftShift_2D.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="cufftShiftInterface.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="HeadFile">
+      <UniqueIdentifier>{148496c5-bb57-45f4-b43b-e0b59e6d56e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFile">
+      <UniqueIdentifier>{df288c46-8f29-47cf-b20e-72e57f83834b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FPMFunction.cpp">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="configGPU.cpp">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="cufftShift_2D.cpp">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="main.cu" />
+    <CudaCompile Include="cufftShift_2D_IP_impl.cu" />
+    <CudaCompile Include="cufftShift_2D_IP.cu" />
+  </ItemGroup>
+</Project>
